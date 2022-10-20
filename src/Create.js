@@ -26,7 +26,7 @@ const Create = () => {
         setTitle('');
         setBody('');
         setAuthor('1');
-        navigate("/");
+        navigate("/dojo-blog/");
         setError(null);
       } else{
         throw Error('Error occured when adding this blog!! Error Status: '+res.status);

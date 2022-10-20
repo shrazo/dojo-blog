@@ -14,7 +14,7 @@ const BlogDetails = () => {
       .then((res)=>{
         if(res.ok){
           console.log('Item deleted');
-          navigate("/");
+          navigate("/dojo-blog/");
         } else{
           throw Error('Error deleting the item. Error status: '+res.status);
         }
